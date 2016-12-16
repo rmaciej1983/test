@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="github"
+  <remote  name="origin"
            fetch="https://github.com/rmaciej1983" />
  
-    <default revision="refs/heads/master"
-           remote="github"
+    <default revision="master"
+           remote="origin"
            sync-j="4" />
             
-  <project name="myrepo" remote="github" path="myrepo.git"/>
-  <project name="myrepo2" remote="github" path="myrepo2.git"/>
+  <project name="myrepo" remote="origin" path="myrepo.git"/>
+  <project name="myrepo2" remote="origin" path="myrepo2.git"/>
 </manifest>  
