@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="origin"
+           fetch="https://github.com/rmaciej1983" />
+ 
+    <default revision="master"
+           remote="origin"
+           sync-j="4" />
+            
+  <project name="myrepo" remote="origin" path="myrepo.git"/>
+  <project name="myrepo2" remote="origin" path="myrepo2.git"/>
+</manifest>  
