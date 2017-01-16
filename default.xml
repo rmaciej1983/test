@@ -3,7 +3,7 @@
   <remote  name="origin"
            fetch="https://github.com/rmaciej1983" />
  
-    <default revision="master"
+    <default revision="refs/heads/master"
            remote="origin"
            sync-j="4" />
             
